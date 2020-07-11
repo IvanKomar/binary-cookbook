@@ -1,0 +1,19 @@
+  .recipes {
+    padding: 0.5em;
+    width: calc(100% - 40vw);
+  }
+  .recipes__header {
+    margin-left: 0.5em;
+  }
+
+  .recipes__list {
+    margin: 0;
+    padding: 0;
+  }
+
+  @media (max-width: 900px) {
+    .recipes {
+      padding: 0.5em;
+      width: calc(100% - 15vw);
+    }
+  }

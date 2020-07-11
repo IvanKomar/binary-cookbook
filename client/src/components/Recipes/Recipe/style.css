@@ -1,0 +1,45 @@
+.recipe {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 5px;
+  border-bottom: 2px solid #e2e8f0;
+  margin: 5px;
+  padding: 0.5em;
+  cursor: pointer;
+
+}
+
+.recipe__time {
+  display: block;
+  font-size: 1rem;
+  line-height: 2.3rem;
+  color: #ffffff;
+  background-color: #6f6e75;
+  padding: 0 0.5rem;
+  border-radius: 15px;
+}
+
+.recipe__description {
+  margin-left: 15px;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  margin-right: auto;
+}
+.recipe__icon {
+  display: block;
+  width: 40px;
+  height: 40px;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  line-height: 1.5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 50%;
+  background-color: transparent;
+}
