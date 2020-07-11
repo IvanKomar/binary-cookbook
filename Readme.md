@@ -1,4 +1,4 @@
-# Expense Tracker (MERN)
+# CookBook test (MERN)
 
 > Full stack expense tracker
 
